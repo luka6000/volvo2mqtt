@@ -1,5 +1,5 @@
 name: "Volvo2Mqtt"
-description: "Volvo AAOS MQTT bridge by LG"
+description: "Volvo AAOS MQTT bridge by Dielee mods by LukaGra"
 version: "1.10.5"
 slug: "volvo2mqtt"
 init: false
