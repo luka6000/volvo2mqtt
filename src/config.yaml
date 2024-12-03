@@ -1,9 +1,9 @@
 name: "Volvo2Mqtt"
-description: "Volvo AAOS MQTT bridge"
+description: "Volvo AAOS MQTT bridge by LG"
 version: "1.10.5"
 slug: "volvo2mqtt"
 init: false
-url: "https://github.com/Dielee/volvo2mqtt"
+url: "https://github.com/luka6000/volvo2mqtt"
 apparmor: true
 codenotary: notary@home-assistant.io
 services:
@@ -45,8 +45,4 @@ schema:
     vccapikey:
         - match(^\b\w{32}\b$)
 arch:
-  - aarch64
   - amd64
-  - armhf
-  - armv7
-  - i386
