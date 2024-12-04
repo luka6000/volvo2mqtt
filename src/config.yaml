@@ -45,4 +45,8 @@ schema:
     vccapikey:
         - match(^\b\w{32}\b$)
 arch:
+  - aarch64
   - amd64
+  - armhf
+  - armv7
+  - i386
